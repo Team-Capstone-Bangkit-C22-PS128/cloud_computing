@@ -49,18 +49,7 @@ def predict():
                 makanan = "kerak_telor"
             elif max_index == 2:
                 makanan = "pempek"
-            """ Wait ML renew the model
-            if max_index == 0:
-                makanan = "asinan"
-            elif max_index == 1:
-                makanan = "bika_ambon"
-            elif max_index == 2:
-                makanan = "kerak_telor"
-            elif max_index == 3:
-                makanan = "kolak"
-            elif max_index == 4:
-                makanan = "pempek"
-            """
+            
             response_body = json.dumps(
                 {
                     "status": True,
