@@ -44,12 +44,16 @@ def predict():
             
             # Identify the food
             if max_index == 0:
-                makanan = "bika_ambon"
+                makanan = "asinan"
             elif max_index == 1:
-                makanan = "kerak_telor"
+                makanan = "bika_ambon"
             elif max_index == 2:
+                makanan = "kerak_telor"
+            elif max_index == 3:
+                makanan = "kolak"
+            elif max_index == 4:
                 makanan = "pempek"
-            
+                
             response_body = json.dumps(
                 {
                     "status": True,
